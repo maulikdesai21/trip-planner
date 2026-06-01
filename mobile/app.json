@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Trip Planner",
+    "slug": "trip-planner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.tripplanner.app"
+    },
+    "android": {
+      "package": "com.tripplanner.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#e76f51"
+      }
+    },
+    "plugins": []
+  }
+}
