@@ -1,17 +1,17 @@
+export type CoverKey = 'coral' | 'amber' | 'rose' | 'sage' | 'sky' | 'plum';
+
 export const TOKENS = {
-  bg:        '#fbf3ec',
-  surface:   '#ffffff',
-  surfaceAlt:'#f7ece1',
-  ink:       '#3a2b25',
-  inkSoft:   '#8a7a70',
-  inkFaint:  '#b8a99f',
   primary:   '#e76f51',
   primaryDk: '#cf5836',
   amber:     '#f0a35e',
+  ink:       '#3a2b25',
+  inkSoft:   '#8a7a70',
+  inkFaint:  '#b8a99f',
+  bg:        '#fbf3ec',
   line:      'rgba(58,43,37,0.10)',
-};
+} as const;
 
-export const COVERS = {
+export const COVERS: Record<CoverKey, [string, string]> = {
   coral: ['#f3906e', '#e2613f'],
   amber: ['#f5b46e', '#eb8d3c'],
   rose:  ['#ef8f8c', '#d75f6c'],
